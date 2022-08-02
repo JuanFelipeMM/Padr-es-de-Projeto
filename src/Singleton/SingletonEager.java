@@ -7,7 +7,7 @@ public class SingletonEager {
         super();
     }
 
-    public static SingletonEager getInstacia(){
+    public static SingletonEager getInstancia(){
         return instancia;
     }
 }

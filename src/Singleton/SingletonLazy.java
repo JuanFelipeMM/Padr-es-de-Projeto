@@ -7,7 +7,7 @@ public class SingletonLazy {
         super();
     }
 
-    public static SingletonLazy getInstacia(){
+    public static SingletonLazy getInstancia(){
         if(instancia ==null){
             instancia = new SingletonLazy();
         }
